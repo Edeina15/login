@@ -1,0 +1,127 @@
+body {
+background-color: #cfd8dc;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main{
+    width: 900px;
+    height: 400px;
+    margin-top: 100px;
+    border: 1px solid #cec2ab;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    background: #e5e5e5;
+    border: 1px solid #cec2ab;
+    position: relative;
+}
+h1{
+    margin-top: 100px;
+}
+
+.left form input {
+    text-align: center;
+    width: 70%;
+    height: 35px;
+    margin-bottom: 10px;
+    background: #f8f8f8;
+    border-style: none; 
+    border-radius: 25px;   
+}
+
+
+
+.left form input[type="submit"]{
+    background: #a73729;
+    color: #fff;
+    cursor: pointer;
+    font-weight:bold;
+}
+
+.left form input[type="submit"]:hover{
+    background-color: #000;
+}
+
+.forgot:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.or{
+    font-size: 15px;
+    width: 40px;
+    height: 30px;
+    padding-top: 10px;
+    background: #e5e5e5;
+    border-radius: 50px;
+    position: absolute;
+    left: 95%;
+}
+
+.main .right {
+    text-align: center;
+}
+
+.main .right h1 {
+margin-top: 100px;
+}
+
+.right .social{
+    margin-top: 40px;
+}
+
+.social button{
+    border: none;
+    padding:15px;
+    width:50px;
+    font-size: 18px;
+    background: #fff;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.social .twitter{
+    color: #55ace5;
+}
+
+.social .twitter:hover{
+    background: #55ace5;
+    color:white;
+    cursor: pointer;
+}
+
+.social .facebook{
+    color: #012677;
+}
+
+.social .facebook:hover{
+    background: #55ace5;
+    color:white;
+    cursor: pointer;
+}
+
+.social .facebook{
+    color: #012677;
+}
+
+.social .facebook:hover{
+    background: #012677;
+    color:white;
+    cursor: pointer;
+}
+
+.social .google{
+    color: #d50f25;
+}
+
+.social .google:hover{
+    background: #d50f25;
+    color:white;
+    cursor: pointer;
+}
